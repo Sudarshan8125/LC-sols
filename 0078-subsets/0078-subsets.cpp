@@ -2,18 +2,13 @@ class Solution {
 public:
 
     void powersets(int i,vector<int>&ds, vector<int>& nums, vector<vector<int>>& ans){
-        int n = nums.size();
-        if(i==n){
-            ans.push_back(ds);
-            return;
+        ans.push_back(ds);
+
+        for(i;i<nums.size();i++){
+            ds.push_back(nums[i]);
+            powersets(i+1,ds,nums,ans);
+            ds.pop_back();
         }
-
-        powersets(i+1,ds,nums,ans);
-
-        ds.push_back(nums[i]);
-        powersets(i+1,ds,nums,ans);
-        ds.pop_back();
-
     }
 
 
