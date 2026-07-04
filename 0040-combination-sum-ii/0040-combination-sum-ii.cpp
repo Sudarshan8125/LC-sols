@@ -2,17 +2,16 @@ class Solution {
 public:
 
     void combi(int i,int target,vector<int>& arr,vector<int>&ds,vector<vector<int>>& ans){
-
         int n = arr.size();
-        if(i==n || target<arr[i]){
-            if(target==0){
-                ans.push_back(ds);
-            }
+        if(target==0){
+            ans.push_back(ds);
             return;
         }
+
         int prev_val=-1;
-       for(i;i<n;i++){          // i==n would never be called..
+       for(i;i<n;i++){     
             if(prev_val==arr[i]) continue;
+            if(target<arr[i]) break;
             else{
                 prev_val = arr[i];
                 ds.push_back(arr[i]);
