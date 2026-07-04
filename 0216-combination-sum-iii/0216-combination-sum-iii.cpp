@@ -2,7 +2,7 @@ class Solution {
 public:
 
     void helper(int i,int s,int k,int n,vector<int>& temp,vector<vector<int>>& ans){
-        
+       
         if(temp.size()==k){
             if(s==n){
                 ans.push_back(temp);
@@ -10,7 +10,8 @@ public:
             return;
         }
 
-        if(i==10) return;
+        if (i == 10) return;
+        if (s > n || temp.size() > k) return; 
         //take
         temp.push_back(i);
         helper(i+1,s+i,k,n,temp,ans);
@@ -21,9 +22,11 @@ public:
 
     }
     vector<vector<int>> combinationSum3(int k, int n) {
+
         vector<vector<int>> ans;
         vector<int> temp;
 
+        temp.reserve(k); 
         helper(1,0,k,n,temp,ans);
         return ans;
     }
