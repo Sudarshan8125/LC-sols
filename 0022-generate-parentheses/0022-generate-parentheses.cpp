@@ -6,17 +6,17 @@ public:
             return;
         }
 
+        if(first){
+            temp.push_back('(');
+            helper(temp,first-1,second,ans);
+            temp.pop_back();
+        }
         if(second>first){
             temp.push_back(')');
             helper(temp,first,second-1,ans);
             temp.pop_back();
         }
         
-        if(first){
-                temp.push_back('(');
-                helper(temp,first-1,second,ans);
-                temp.pop_back();
-        }
         return;
 
     }
