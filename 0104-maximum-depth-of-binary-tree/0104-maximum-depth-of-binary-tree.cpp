@@ -9,6 +9,12 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+ auto init = []() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    return 0;
+}();
+
 class Solution {
 public:
     int maxDepth(TreeNode* root) {
