@@ -11,20 +11,19 @@
  */
 class Solution {
 public:
-//height diff between left and right of any node is 1
-    int height(TreeNode* root){
+
+    int heightdfs(TreeNode* root){
         if(root == NULL) return 0;
 
-        return 1 + max(height(root->left),height(root->right));
+        int lh = heightdfs(root->left);
+        int rh = heightdfs(root->right);
+
+        if(lh == -1 || rh==-1) return -1;
+        if(abs(lh-rh)>1) return -1;
+        else return 1+max(lh,rh);
     }
-
     bool isBalanced(TreeNode* root) {
-        if(root == NULL) return true;
-
-        int lh = height(root->left);
-        int rh = height(root->right);
-
-        if(abs(lh-rh)>1) return false;
-        else return isBalanced(root->left) && isBalanced(root->right);
+        // better approach is to check in the height func itself so that it doesnt need to check again again
+        return heightdfs(root) !=-1;
     }
 };
