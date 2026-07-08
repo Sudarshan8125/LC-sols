@@ -11,27 +11,18 @@
  */
 class Solution {
 public:
-    vector<int> rightSideView(TreeNode* root) {
-        vector<int> ans;
-        if(root == NULL) return ans;    
+    void rightView(TreeNode* root,int level,vector<int>& ds){
+        if(root == NULL) return;
 
-        queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()){
-            int size = q.size();
-            int right = 0;
-            for(int i=0;i<size;i++){ // loop for level wised traversal
-                auto node = q.front();
-                q.pop();
-                if(!right){
-                    ans.push_back(node->val);
-                    right =1;
-                }
-                if(node->right)  q.push(node->right);
-                if(node->left) q.push(node->left);
-            }
-            right = 0;
-        }
+        if(level == ds.size()) ds.push_back(root->val);
+        rightView(root->right,level+1,ds);
+        rightView(root->left,level+1,ds);
+    }
+    vector<int> rightSideView(TreeNode* root) {
+        // the recursive solution
+        //reverse preorder traversal Root R L
+        vector<int> ans;
+        rightView(root,0,ans);
         return ans;
     }
 };
