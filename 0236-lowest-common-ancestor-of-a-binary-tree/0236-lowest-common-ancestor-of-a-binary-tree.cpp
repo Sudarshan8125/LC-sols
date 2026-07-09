@@ -9,33 +9,16 @@
  */
 class Solution {
 public:
-
-    bool findPath(TreeNode* root,TreeNode* tar,vector<TreeNode*>& ds){
-        if(root == NULL) return false;
-
-        ds.push_back(root);
-        if(tar == root) return true;
-
-        if(findPath(root->left,tar,ds) || findPath(root->right,tar,ds) == true){
-            return true;
-        }
-        ds.pop_back();
-        return false;
-    }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        //brute solution using 2 loops
-        vector<TreeNode*> pt1;
-        vector<TreeNode*> pt2;
+        if(root == NULL) return NULL;
 
-        findPath(root,p,pt1);
-        findPath(root,q,pt2);
+        if(root == p || root == q) return root;
 
-        int size = min(pt1.size(),pt2.size());
-        int i;
-        for(i = 0; i<size; i++){
-            if(pt1[i]!=pt2[i]) break;
-        }
+        TreeNode* a = lowestCommonAncestor(root->left,p,q);
+        TreeNode* b = lowestCommonAncestor(root->right,p,q);
 
-        return pt1[i-1];
+        if(a && b) return root;
+        if(a || b) return !a ? b:a;
+        else return nullptr;        
     }
 };
