@@ -9,27 +9,42 @@
  */
 class Solution {
 public:
+    unordered_map<TreeNode*,TreeNode*> parent;
+    bool DFS(TreeNode* node, TreeNode* target) {
+        if (node == target) return true; // Found it!
+
+        if (node->left) {
+            parent[node->left] = node;
+            if (DFS(node->left, target)) return true; // Crash stop! Return true to up-level parent
+        }
+        if (node->right) {
+            parent[node->right] = node;
+            if (DFS(node->right, target)) return true; // Crash stop! Return true to up-level parent
+        }
+        return false; // Target not in this subtree
+    }
+
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
         
+        DFS(root,target);
+        // unordered_map<TreeNode*,TreeNode*> parent; // to save node,parent
 
-        unordered_map<TreeNode*,TreeNode*> parent; // to save node,parent
+        // queue<TreeNode*> q;
+        // q.push(root);
+        // while(!q.empty()){  //to store parent of evry node for back traversal
+        //     TreeNode* temp = q.front();
+        //     q.pop();
 
-        queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()){  //to store parent of evry node for back traversal
-            TreeNode* temp = q.front();
-            q.pop();
-
-            if(temp->left){
-                q.push(temp->left);
-                parent[temp->left] = temp;
-            }
-            if(temp->right){
-                q.push(temp->right);
-                parent[temp->right] = temp;
-            }
+        //     if(temp->left){
+        //         q.push(temp->left);
+        //         parent[temp->left] = temp;
+        //     }
+        //     if(temp->right){
+        //         q.push(temp->right);
+        //         parent[temp->right] = temp;
+        //     }
         
-        }
+        // }
 
         //logic to search in all directions
         //bfs type traversal
