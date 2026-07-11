@@ -11,28 +11,30 @@
  */
 class Solution {
 public:
-    TreeNode* construct(vector<int>& preorder,vector<int>& inorder,int& i,int start,int end){
+    TreeNode* construct(unordered_map<int,int>& inorder,vector<int>& preorder,int& i,int start,int end){
 
         if(start>end) return NULL;
         //locate in inorder
-        int j;
-        for(j=start;j<=end;j++){
-            if(preorder[i] == inorder[j]){
-                break;
-            }
-        }
+        int j = inorder[preorder[i]];
         
+
         TreeNode* node = new TreeNode(preorder[i++]);
-        node->left = construct(preorder,inorder,i,start,j-1);
-        node->right = construct(preorder,inorder,i,j+1,end);
+        node->left = construct(inorder,preorder,i,start,j-1);
+        node->right = construct(inorder,preorder,i,j+1,end);
 
         return node;
 
     }
     TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) {
+        int n = inorder.size();
+        unordered_map<int,int> in;
+
+        for(int j=0;j<n;j++) in[inorder[j]] = j;
+            
+
         TreeNode* root;
         int i=0;
-        root = construct(preorder,inorder,i,0,preorder.size()-1);
+        root = construct(in,preorder,i,0,n-1);
         return root;
     }
 };
