@@ -12,24 +12,31 @@
 class Solution {
 public:
 
-    int Lheight(TreeNode* root){
-        if(root == NULL) return 0;
-        return 1 + Lheight(root->left);
+    int Lheight(TreeNode* node){
+        int ht = 0;
+        while(node){
+            ht++; //to cnt current node
+            node = node->left;
+        }
+        return ht;
     }
 
-    int Rheight(TreeNode* root){
-        if(root == NULL) return 0;
-        return 1 + Rheight(root->right);
+    int Rheight(TreeNode* node){
+        int ht = 0;
+        while(node){
+            ht++; //to cnt current node
+            node = node->right;
+        }
+        return ht;
     }
 
     int countNodes(TreeNode* root) {
         if(root == NULL) return 0;
-        if(!root->left && !root->right) return 1;
 
         int lh = Lheight(root);
         int rh = Rheight(root);
 
-        if(lh == rh) return pow(2,lh) - 1;
-        else return 1 + countNodes(root->left) + countNodes(root->right);
+        if(lh == rh) return (1<<lh) -1;
+        return 1 + countNodes(root->left) + countNodes(root->right);
     }
 };
