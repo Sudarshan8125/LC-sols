@@ -11,27 +11,18 @@
  */
 class Solution {
 public:
+    TreeNode* createNode(int val){
+        TreeNode* newnode = new TreeNode(val);
+        return newnode;
+    }
     TreeNode* insertIntoBST(TreeNode* root, int val) {
-        if(root == NULL) return new TreeNode(val);
+        if(root == NULL) return createNode(val);
 
-        TreeNode* curr = root;
-        while(true){
-            if(val > curr->val){
-                if(val > curr->val && curr->right) curr = curr->right;
-                else{
-                    curr->right = new TreeNode(val);
-                    break;
-                }
-            }
-
-            else{
-                if(val < curr->val && curr->left) curr = curr->left;
-                else{
-                    curr->left = new TreeNode(val);
-                    break;
-                }
-            }
+        if(val > root->val){
+            root->right = insertIntoBST(root->right,val);
         }
+        else root->left = insertIntoBST(root->left,val);
+
         return root;
     }
 };
