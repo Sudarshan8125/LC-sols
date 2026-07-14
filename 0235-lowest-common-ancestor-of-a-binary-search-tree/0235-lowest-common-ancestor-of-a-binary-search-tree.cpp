@@ -10,16 +10,15 @@
 
 class Solution {
 public:
-    TreeNode* LCA(TreeNode* root,int min,int max){
-        if(root==NULL || root->val>=min && root->val<=max) return root;
-
-        if(root->val < min) return LCA(root->right,min,max);
-        return LCA(root->left,min,max);
-    }
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-
-        int x = min(p->val,q->val);
-        int y = max(p->val,q->val);
-        return LCA(root,x,y);
+        if(root == NULL) return root;
+        int curr = root->val;
+        if(curr>p->val && curr>q->val){
+            return lowestCommonAncestor(root->left,p,q);// p,q smaller than curr
+        }
+        else if(curr<p->val && curr<q->val){
+            return lowestCommonAncestor(root->right,p,q);// p,q greater than curr
+        }
+        return root;
     }
 };
