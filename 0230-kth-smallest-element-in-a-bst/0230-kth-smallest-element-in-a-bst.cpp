@@ -11,18 +11,26 @@
  */
 class Solution {
 public:
-    void findKth(TreeNode* root,int& k,int& ans){
-        if(root == NULL) return;
-        findKth(root->left,k,ans);
+   int findKth(TreeNode* root, int& k) {
+        // Base case: If we hit a NULL pointer (X), return -1
+        if (root == nullptr) return -1;
+
+        // 1. Traverse the Left Subtree
+        int left = findKth(root->left, k);
+        
+        // EARLY EXIT CHECK: If the left subtree found the answer, 
+        // bubble it up immediately and skip everything else!
+        if (left != -1) return left;
+
+        // 2. Process Current Node
         k--;
-        if(k==0) ans = root->val;
-        findKth(root->right,k,ans);
+        if (k == 0) return root->val; // Target found!
+
+        // 3. Traverse the Right Subtree
+        return findKth(root->right, k);
     }
 
-
     int kthSmallest(TreeNode* root, int k) {
-        int ans = -1;
-        findKth(root,k,ans);
-        return ans;
+        return findKth(root, k);
     }
 };
