@@ -11,21 +11,15 @@
  */
 class Solution {
 public:
-    bool inorder(TreeNode* root,long long& mini){
+
+    bool isBst(TreeNode* root,long long min,long long max){
         if(root == NULL) return true;
+        if(root->val<=min || root->val>=max) return false;
 
-        if(!inorder(root->left,mini)) return false;
-
-        if(mini >= root->val) return false;
-        mini = root->val;
-
-        if(!inorder(root->right,mini)) return false;
-
-        return true;
+        return isBst(root->left,min,root->val) && isBst(root->right,root->val,max);
     }
     bool isValidBST(TreeNode* root) {
-        // the inorder traversal should be ascending
-        long long mini = LLONG_MIN;
-        return inorder(root,mini);
+        //strivers implementation code
+        return isBst(root,LLONG_MIN,LLONG_MAX);
     }
 };
