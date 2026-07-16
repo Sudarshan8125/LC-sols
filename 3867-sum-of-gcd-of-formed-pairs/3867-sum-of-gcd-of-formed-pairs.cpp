@@ -1,5 +1,13 @@
 class Solution {
 public:
+    int gcd(int a, int b) {
+        if (a == 0) {
+            return b;
+        } else if (a <= b) {
+            return gcd(b % a, a);
+        }
+        return gcd(a % b, b);
+    }
     long long gcdSum(vector<int>& nums) {
         int n = nums.size();
         vector<int> prefix(n,0);
