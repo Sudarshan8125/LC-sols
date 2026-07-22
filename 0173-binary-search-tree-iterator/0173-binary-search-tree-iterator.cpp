@@ -10,7 +10,7 @@
  * };
  */
 class BSTIterator {
-    stack<TreeNode*> st;
+private : stack<TreeNode*> st;
 public:
     BSTIterator(TreeNode* root) {
         pushAll(root);
