@@ -19,7 +19,7 @@ public:
         if(!root) return;
         inorder(root->left);
 
-        if(root->val < prev->val){
+        if(prev && root->val < prev->val) {
             if(!first) first = prev;
             second = root;
         }
@@ -29,8 +29,7 @@ public:
     }
 
     void recoverTree(TreeNode* root) {
-        first = second = NULL;
-        prev = new TreeNode(INT_MIN);
+        first = second = prev = nullptr; // Clear pointers, no dummy node needed
 
         inorder(root);
         if (first && second) {
