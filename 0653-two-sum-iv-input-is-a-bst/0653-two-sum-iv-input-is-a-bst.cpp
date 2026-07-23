@@ -10,21 +10,45 @@
  * };
  */
 class Solution {
+private:    
+    stack<TreeNode*> s1;
+    stack<TreeNode*> s2;
 public:
     bool findTarget(TreeNode* root, int k) {
-        //approach no1
-        unordered_set<int> st;
-        if(root == NULL) return false;
-        queue<TreeNode*> q;
-        q.push(root);
-        while(!q.empty()){
-            TreeNode* temp = q.front();
-            q.pop();
-            if(st.count(k-temp->val)!=0) return true;
-            st.insert(temp->val);
-            if(temp->left) q.push(temp->left);
-            if(temp->right) q.push(temp->right);
+        pushAllL(root);
+        pushAllR(root);
+        int l = next();
+        int r = before();
+        while(l!=r){
+            if(l+r > k) r = before();
+            else if(l+r < k) l = next();
+            else return true; 
         }
         return false;
+    }
+private:
+    void pushAllL(TreeNode* root){
+        while(root){
+            s1.push(root);
+            root = root->left;
+        }
+    }
+    void pushAllR(TreeNode* root){
+        while(root){
+            s2.push(root);
+            root = root->right;
+        }
+    }
+    int next(){
+        TreeNode* temp = s1.top();
+        s1.pop();
+        pushAllL(temp->right);
+        return temp->val;
+    }
+    int before(){
+        TreeNode* temp = s2.top();
+        s2.pop();
+        pushAllR(temp->left);
+        return temp->val;
     }
 };
