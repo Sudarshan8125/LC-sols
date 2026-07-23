@@ -9,50 +9,46 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-class BSTiterator{
-private:
-    stack<TreeNode*> st;
-    bool rev;
-    void pushAll(TreeNode* root){
-        while(root){
-            st.push(root);
-            if(!rev) root = root->left;
-            else root = root->right;
-        }
-    }
-public:
-    BSTiterator(TreeNode* root,bool flag){
-        rev = flag;
-        pushAll(root);
-    }
-
-    //next in case of rev->false else before//
-    int next(){
-        TreeNode* temp = st.top();
-        st.pop();
-        if(!rev) pushAll(temp->right);
-        else pushAll(temp->left);        
-        return temp->val;
-    }
-};
-
 class Solution {
+private:    
+    stack<TreeNode*> s1;
+    stack<TreeNode*> s2;
 public:
-    //striver style solution
     bool findTarget(TreeNode* root, int k) {
-        if(!root) return false;
-
-        BSTiterator l(root,false);
-        BSTiterator r(root,true);
-
-        int i = l.next();
-        int j = r.next();
-
-        while(i<j){
-            if(i+j > k) j = r.next();
-            else if (i+j < k) i = l.next();
-            else return true;
+        pushAllL(root);
+        pushAllR(root);
+        int l = next();
+        int r = before();
+        while(l!=r){
+            if(l+r > k) r = before();
+            else if(l+r < k) l = next();
+            else return true; 
         }
         return false;
+    }
+private:
+    void pushAllL(TreeNode* root){
+        while(root){
+            s1.push(root);
+            root = root->left;
+        }
+    }
+    void pushAllR(TreeNode* root){
+        while(root){
+            s2.push(root);
+            root = root->right;
+        }
+    }
+    int next(){
+        TreeNode* temp = s1.top();
+        s1.pop();
+        pushAllL(temp->right);
+        return temp->val;
+    }
+    int before(){
+        TreeNode* temp = s2.top();
+        s2.pop();
+        pushAllR(temp->left);
+        return temp->val;
     }
 };
