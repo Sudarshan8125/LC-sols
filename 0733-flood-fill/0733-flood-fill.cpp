@@ -1,39 +1,27 @@
 class Solution {
 public:
+    int n;
+    int m;
+
+    void dfs(vector<vector<int>>& image,int sr,int sc,int rcol,int col){
+
+        if(sr<0 || sr>=n || sc<0 || sc>=m || image[sr][sc]!=rcol) return;
+
+        image[sr][sc] = col;
+        dfs(image,sr+1,sc,rcol,col);
+        dfs(image,sr-1,sc,rcol,col);
+        dfs(image,sr,sc+1,rcol,col);
+        dfs(image,sr,sc-1,rcol,col);
+    }
     vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int color) {
-        int n = image.size();
-        int m = image[0].size();
+        n = image.size();
+        m = image[0].size();
         int rcol = image[sr][sc];
 
         // Fix: Prevent infinite loops when the target color is the same as the current color
         if (rcol == color) return image; 
-
         
-        queue<pair<int,int>> q;
-        q.push({sr,sc});
-        image[sr][sc] = color;
-
-        int dx[] = {0,0,-1,1};
-        int dy[] = {-1,1,0,0};
-
-        while(!q.empty()){
-            auto [x,y] = q.front();
-            q.pop();
-
-            for(int i=0;i<4;i++){
-                int xn = x+dx[i];
-                int yn = y+dy[i];
-
-                if(xn>=0 && xn<n && yn>=0 && yn<m){
-                    if(image[xn][yn] == rcol){
-                        image[xn][yn] = color;
-                        q.push({xn,yn});
-                    }
-                }
-
-            }
-
-        }
+        dfs(image,sr,sc,rcol,color);
 
         return image;
     }
