@@ -1,34 +1,53 @@
 class Solution {
-private:
-    int n,m;
-    void dfs(int r,int c,vector<vector<int>>& grid){
-        if(r<0 || r>=n || c<0 || c>=m || grid[r][c]!=1) return;
-
-        grid[r][c] = 2;
-
-        dfs(r+1,c,grid);
-        dfs(r-1,c,grid);
-        dfs(r,c+1,grid);
-        dfs(r,c-1,grid);
-    }
 public:
     int numEnclaves(vector<vector<int>>& grid) {
-        n = grid.size();
-        m = grid[0].size();
+        //solving using bfs
+        int n = grid.size();
+        int m = grid[0].size();
 
+        queue<pair<int,int>> q;
         for(int i=0;i<n;i++){
-            if(grid[i][0]==1) dfs(i,0,grid);
-            if(grid[i][m-1]==1) dfs(i,m-1,grid);
+            if(grid[i][0] == 1) {
+                q.push({i,0});
+                grid[i][0] = 2;
+            }
+            if(grid[i][m-1] == 1) {
+                q.push({i,m-1});
+                grid[i][m-1] = 2;
+            }
         }
-
         for(int j=0;j<m;j++){
-            if(grid[0][j]==1) dfs(0,j,grid);
-            if(grid[n-1][j]==1) dfs(n-1,j,grid);
+            if(grid[0][j] == 1) {
+                q.push({0,j});
+                grid[0][j] = 2;
+            }
+            if(grid[n-1][j] == 1) {
+                q.push({n-1,j});
+                grid[n-1][j] = 2;
+            }
         }
-        int cnt = 0;
+        int dx[] = {-1,1,0,0};
+        int dy[] = {0,0,-1,1};
+        while(!q.empty()){
+            auto [r,c] = q.front();
+            q.pop();
+
+            for(int i=0;i<4;i++){
+                int xn = r+dx[i];
+                int yn = c+dy[i];
+
+                if(xn>=0 && xn<n && yn>=0 && yn<m){
+                    if(grid[xn][yn] == 1){
+                        grid[xn][yn] = 2;
+                        q.push({xn,yn});
+                    }
+                }
+            }
+        }
+        int cnt =0; 
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
-                if(grid[i][j]==1) cnt++;
+                if(grid[i][j] == 1) cnt++;
             }
         }
         return cnt;
