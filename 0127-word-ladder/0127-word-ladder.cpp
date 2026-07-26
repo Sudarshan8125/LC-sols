@@ -2,18 +2,18 @@ class Solution {
 public:
     int ladderLength(string beginWord, string endWord, vector<string>& wordList) {
         int l = beginWord.size();
-        unordered_map<string,int> vis; //make string as node states
-        unordered_set<char> adj[l]; //where can u nevigate to from any node
-        for(auto it:wordList){
-            vis[it] = 0;
-            for(int i=0;i<l;i++){
-                adj[i].insert(it[i]);
-            }
-        }
 
+        unordered_set<string> st; //make string as node states 
+        for(auto it:wordList){
+            st.insert(it);
+        }
+        if (st.find(endWord) == st.end()) return 0;
+
+    
         queue<string> q;
         q.push(beginWord);
         int len = 1;
+
         while(!q.empty()){
             int size = q.size();
             
@@ -21,16 +21,16 @@ public:
                 string curr = q.front();
                 q.pop();
 
-                for(int i=0;i<l;i++){
-                    for(auto ch:adj[i]){
-                        string temp = curr;
-                        temp[i] = ch;
+                // Base check: If we reached the target, return current sequence length
+                if (curr == endWord) return len;
 
-                        if(temp == endWord) return len+1;
-
-                        auto it = vis.find(temp);
-                        if(it!=vis.end() && it->second!=1){ // if its a valid word
-                            it->second = 1;
+                // Step 2: Try changing every character position
+                for (int j = 0; j < l; j++) {
+                    string temp = curr;
+                    for (char ch = 'a'; ch <= 'z'; ch++) {
+                        temp[j] = ch;
+                        if (st.find(temp) != st.end()) { //if valid
+                            st.erase(temp); 
                             q.push(temp);
                         }
                     }
@@ -39,7 +39,6 @@ public:
             len++;
         }
         
-
         return 0;
     }
 };
