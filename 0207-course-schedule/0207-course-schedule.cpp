@@ -26,7 +26,7 @@ public:
             int u = it[0];
             int v = it[1];
 
-            adjLs[u].push_back(v);
+            adjLs[v].push_back(u);
         }
 
         for(int i=0;i<numCourses;i++){
