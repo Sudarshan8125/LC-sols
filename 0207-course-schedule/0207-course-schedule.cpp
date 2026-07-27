@@ -1,16 +1,17 @@
 class Solution {
 private:
-    bool dfs(int node,vector<int> adj[],vector<int>& vis,vector<int>& pathVis){
+    bool dfs(int node,vector<int> adj[],vector<int>& vis){
         vis[node] = 1;
-        pathVis[node] = 1;
+
         for(auto it:adj[node]){
             if(!vis[it]){
                 vis[it] = 1;
-                if(dfs(it,adj,vis,pathVis) == true) return true;
+                if(dfs(it,adj,vis) == true) return true;
             }
-            else if(pathVis[it]) return true;
+            else if(vis[it]==1) /*same path node came back*/
+                return true;
         }
-        pathVis[node] = 0;
+        vis[node] = 2; //if its vis
         return false;
     }
 public:
@@ -18,7 +19,7 @@ public:
         //if there is a cyclic dependencies then topological ordering would not be possible
         vector<int> adjLs[numCourses];
         vector<int> vis(numCourses,0);
-        vector<int> pathVis(numCourses,0);
+        //0->unv //1->pathvis //2->vis
         //using both vis+pathVis
 
         for(auto it:prerequisites){
@@ -30,7 +31,7 @@ public:
 
         for(int i=0;i<numCourses;i++){
             if(!vis[i]){
-                if(dfs(i,adjLs,vis,pathVis)==true) return false; // if cycle
+                if(dfs(i,adjLs,vis)==true) return false; // if cycle
             }
         }
         return true;
