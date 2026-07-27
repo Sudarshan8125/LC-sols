@@ -28,6 +28,7 @@ public:
             }
         }
 
-        return ans.size() == numCourses ? ans:vector<int>{};
+        if(ans.size() == numCourses) return ans;
+        else return {};
     }
 };
