@@ -1,7 +1,7 @@
 class Solution {
 public:
     int networkDelayTime(vector<vector<int>>& times, int n, int k) {
-        vector<pair<int,int>> adj[n+1];
+        vector<vector<pair<int,int>>> adj(n + 1);
 
         for(auto it:times){
             int u = it[0];
