@@ -1,4 +1,3 @@
-
 class DisjointSet{
     vector<int> parent,rank;
   public:
@@ -36,30 +35,21 @@ class DisjointSet{
 class Solution {
 public:
     int makeConnected(int n, vector<vector<int>>& connections) {
-        //first access the num of cables we have
-        // then if even forming the mst is taking us more than we have we cant ret -1
-        // else if we can manage MST ke sum se jada cable hai then we would need to remove = no of new connction k brabar cables. new conn = no.of not connected nodes.
+        // CRITICAL ELIMINATION: If total cables are less than n-1, connection is impossible
+        if (connections.size() < n - 1) return -1;
 
-        int c = connections.size(); //no of cable;
-        int used_C = 0;
         DisjointSet ds(n);
-        for(auto it:connections){
-            int u = it[0];
-            int v = it[1];
-
-            if(ds.findUPar(u)!=ds.findUPar(v)){
-                ds.unionByRank(u,v);
-                used_C++;
-            }
+        for (auto it : connections) {
+            ds.unionByRank(it[0], it[1]);
         }
 
-        //now for the rem we would req diff_comp_cnt-1 cables
+        // Count independent components
         int cnt = 0;
-        for(int i=0;i<n;i++){
-            if(ds.findUPar(i)==i) cnt++;
+        for (int i = 0; i < n; i++) {
+            if (ds.findUPar(i) == i) cnt++;
         }
-        used_C += cnt-1;
-        if(used_C > c) return -1;
-        else return cnt-1;
+
+        // To connect 'cnt' components, we need exactly 'cnt - 1' cables
+        return cnt - 1;
     }
 };
