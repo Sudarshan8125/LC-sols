@@ -1,34 +1,59 @@
-class Solution {
-public:
-    void BFS(int node,vector<int>& vis,vector<vector<int>>& adj){ // to traverse one entire province..
-        int n = adj.size();
-        queue<int> q;
-        q.push(node); //lvl 0 pushed to the queue
-        vis[node] = 1;
-        while(!q.empty()){
-            int temp = q.front();
-            q.pop();
-
-            for(int it=0;it<n;it++){
-                if(adj[temp][it] && !vis[it]){
-                    q.push(it);
-                    vis[it] = 1;
-                }
-            }
+class DisjointSet{
+    vector<int> rank,parent;
+  public:
+    DisjointSet(int n){
+        rank.resize(n+1,0);
+        parent.resize(n+1);
+        for(int i = 0;i<n;i++){
+            parent[i] = i;
         }
     }
 
+    int findUPar(int node){
+        if(parent[node]==node) return node;
+        else return parent[node] = findUPar(parent[node]);
+    }
+
+    void unionByRank(int u,int v){
+        int ulp_u = findUPar(u);
+        int ulp_v = findUPar(v);
+
+        if(ulp_v == ulp_u) return;
+
+        if(rank[ulp_u] < rank[ulp_v]){
+            parent[ulp_u] = ulp_v;
+        }
+        else if(rank[ulp_u] > rank[ulp_v]){
+            parent[ulp_v] = ulp_u;
+        }
+        else{
+            parent[ulp_v] = ulp_u;
+            rank[ulp_u]++;
+        }       
+    }
+};
+
+
+class Solution {
+public:
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int n = isConnected.size();
-        vector<int> vis(n,0);
-        int prov = 0;
-        
+        // dis joint set solution
+        int n = isConnected.size(); //-->no of vertex
+        int m = isConnected[0].size();
+        DisjointSet ds(n);
         for(int i=0;i<n;i++){
-            if(!vis[i]){
-                prov++;
-                BFS(i,vis,isConnected);
+            for(int j=0;j<m;j++){
+                if(isConnected[i][j]==1 && i!=j){
+                    if(ds.findUPar(i+1)!=ds.findUPar(j+1)){
+                        ds.unionByRank(i+1,j+1);
+                    }
+                }
             }
         }
-        return prov;
+        unordered_set<int> st;
+        for(int i=1;i<=n;i++){
+            st.insert(ds.findUPar(i));
+        }
+        return st.size();
     }
 };
