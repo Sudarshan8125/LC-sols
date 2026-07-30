@@ -4,7 +4,7 @@ class DisjointSet{
     DisjointSet(int n){
         rank.resize(n+1,0);
         parent.resize(n+1);
-        for(int i = 0;i<n;i++){
+        for(int i = 0;i<=n;i++){
             parent[i] = i;
         }
     }
@@ -50,10 +50,10 @@ public:
                 }
             }
         }
-        unordered_set<int> st;
+        int cnt = 0;
         for(int i=1;i<=n;i++){
-            st.insert(ds.findUPar(i));
+            if(ds.findUPar(i) == i) cnt++;
         }
-        return st.size();
+        return cnt;
     }
 };
