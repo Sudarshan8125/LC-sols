@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Sudarshan8125/LC-sols/tree/master/0733-flood-fill) |
+| [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
 | [0994-rotting-oranges](https://github.com/Sudarshan8125/LC-sols/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1020-number-of-enclaves](https://github.com/Sudarshan8125/LC-sols/tree/master/1020-number-of-enclaves) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Sudarshan8125/LC-sols/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Sudarshan8125/LC-sols/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Stack
 |  |
@@ -255,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Sudarshan8125/LC-sols/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sudarshan8125/LC-sols/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Number Theory
@@ -342,4 +345,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+## Game Theory
+|  |
+| ------- |
+| [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
 <!---LeetCode Topics End-->
