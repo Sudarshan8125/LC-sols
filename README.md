@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Sudarshan8125/LC-sols/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Sudarshan8125/LC-sols/tree/master/0200-number-of-islands) |
 | [0216-combination-sum-iii](https://github.com/Sudarshan8125/LC-sols/tree/master/0216-combination-sum-iii) |
+| [0403-frog-jump](https://github.com/Sudarshan8125/LC-sols/tree/master/0403-frog-jump) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Sudarshan8125/LC-sols/tree/master/0733-flood-fill) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0022-generate-parentheses) |
 | [0070-climbing-stairs](https://github.com/Sudarshan8125/LC-sols/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0403-frog-jump](https://github.com/Sudarshan8125/LC-sols/tree/master/0403-frog-jump) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Sudarshan8125/LC-sols/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
