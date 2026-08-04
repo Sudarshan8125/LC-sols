@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0022-generate-parentheses) |
+| [0062-unique-paths](https://github.com/Sudarshan8125/LC-sols/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Sudarshan8125/LC-sols/tree/master/0070-climbing-stairs) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/Sudarshan8125/LC-sols/tree/master/0198-house-robber) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0062-unique-paths](https://github.com/Sudarshan8125/LC-sols/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/Sudarshan8125/LC-sols/tree/master/0070-climbing-stairs) |
 | [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Sudarshan8125/LC-sols/tree/master/3658-gcd-of-odd-and-even-sums) |
@@ -361,4 +363,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Sudarshan8125/LC-sols/tree/master/0070-climbing-stairs) |
+## Combinatorics
+|  |
+| ------- |
+| [0062-unique-paths](https://github.com/Sudarshan8125/LC-sols/tree/master/0062-unique-paths) |
 <!---LeetCode Topics End-->
