@@ -21,6 +21,25 @@ public:
         int n = obstacleGrid[0].size();
 
         vector<vector<int>> dp(m,vector<int>(n,-1));
-        return f(m-1,n-1,obstacleGrid,dp); //pass on the starting index nd memo ke liye matrix
+
+        //convert to tabultion
+        for(int r=0;r<m;r++){
+            for(int c=0;c<n;c++){
+                if(obstacleGrid[r][c]){
+                    dp[r][c] = 0;
+                    continue;
+                }
+                if(r==0 && c==0){
+                    dp[0][0] = 1;
+                    continue;
+                }
+                int up = 0, left = 0;
+                if(r>0) up = dp[r-1][c];
+                if(c>0) left = dp[r][c-1];
+
+                dp[r][c] = up+left;
+            }
+        }
+        return dp[m-1][n-1];
     }
 };
