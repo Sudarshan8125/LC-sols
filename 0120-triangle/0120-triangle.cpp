@@ -25,7 +25,6 @@ int f(int r,int c,vector<vector<int>>& mat,vector<vector<int>>& dp){
 
                 temp[c] = min(down,diag);
             }
-            prev.pop_back();
             prev = temp;
         }
         return prev[0];
