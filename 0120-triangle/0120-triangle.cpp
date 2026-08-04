@@ -14,7 +14,20 @@ int f(int r,int c,vector<vector<int>>& mat,vector<vector<int>>& dp){
     }
     int minimumTotal(vector<vector<int>>& triangle) {
         int n = triangle.size();
-        vector<vector<int>> dp(n, vector<int>(n, -1e9));
-        return f(0,0,triangle,dp);
+        vector<int> prev(n+1,0);
+        
+        for(int r=n-1;r>=0;r--){
+            vector<int> temp(r+1,0);
+            for(int c=r;c>=0;c--){
+
+                int down = triangle[r][c] + prev[c]; //here r+1 means nihce wali row i.e. piche wali
+                int diag = triangle[r][c] + prev[c+1];
+
+                temp[c] = min(down,diag);
+            }
+            prev.pop_back();
+            prev = temp;
+        }
+        return prev[0];
     }
 };
