@@ -25,13 +25,14 @@ public:
     int cherryPickup(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        vector<vector<vector<int>>> dp(n,vector<vector<int>>(m,vector<int>(m,-1)));
-
+        
+        vector<vector<int>> front(m,vector<int>(m,0));
+        vector<vector<int>> curr(m,vector<int>(m,0));
         //declare base cases
         for(int c1=0;c1<m;c1++){
             for(int c2=0;c2<m;c2++){
-                if(c1==c2) dp[n-1][c1][c2] = grid[n-1][c1];
-                else dp[n-1][c1][c2] = grid[n-1][c1] + grid[n-1][c2];
+                if(c1==c2) front[c1][c2] = grid[n-1][c1];
+                else front[c1][c2] = grid[n-1][c1] + grid[n-1][c2];
             }
         }
         //loops
@@ -46,7 +47,7 @@ public:
                             if(c1==c2) value = grid[r][c1];
                             else value = grid[r][c1] + grid[r][c2];
                             if(c1 + i >= 0 && c1 + i < m && c2 + j >= 0 && c2 + j < m) {
-                                value += dp[r+1][c1+i][c2+j];
+                                value += front[c1+i][c2+j];
                             } else {
                                 value += -1e9; // Fixed: Add penalty for illegal out-of-bounds moves
                             }
@@ -54,12 +55,13 @@ public:
                         }
                     }
                     
-                    dp[r][c1][c2] = maxi;  //assign the max poss value for that case
+                    curr[c1][c2] = maxi;  //assign the max poss value for that case
                 }
             }
+            front = curr;
         }
 
 
-        return dp[0][0][m-1];
+        return curr[0][m-1];
     }
 };
