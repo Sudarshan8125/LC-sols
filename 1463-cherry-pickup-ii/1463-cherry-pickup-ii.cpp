@@ -33,7 +33,7 @@ public:
                     curr[c1][c2] = cherries + maxi;               
                 }
             }
-            prev = curr;
+            swap(prev, curr);
         }
         return prev[0][m-1]; //passed up the fixed start points
     }
