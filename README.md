@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Sudarshan8125/LC-sols/tree/master/0733-flood-fill) |
+| [0741-cherry-pickup](https://github.com/Sudarshan8125/LC-sols/tree/master/0741-cherry-pickup) |
 | [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
 | [0931-minimum-falling-path-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0931-minimum-falling-path-sum) |
 | [0994-rotting-oranges](https://github.com/Sudarshan8125/LC-sols/tree/master/0994-rotting-oranges) |
@@ -76,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0403-frog-jump](https://github.com/Sudarshan8125/LC-sols/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0416-partition-equal-subset-sum) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
+| [0741-cherry-pickup](https://github.com/Sudarshan8125/LC-sols/tree/master/0741-cherry-pickup) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Sudarshan8125/LC-sols/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
 | [0931-minimum-falling-path-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0931-minimum-falling-path-sum) |
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Sudarshan8125/LC-sols/tree/master/0200-number-of-islands) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/Sudarshan8125/LC-sols/tree/master/0733-flood-fill) |
+| [0741-cherry-pickup](https://github.com/Sudarshan8125/LC-sols/tree/master/0741-cherry-pickup) |
 | [0931-minimum-falling-path-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0931-minimum-falling-path-sum) |
 | [0994-rotting-oranges](https://github.com/Sudarshan8125/LC-sols/tree/master/0994-rotting-oranges) |
 | [1020-number-of-enclaves](https://github.com/Sudarshan8125/LC-sols/tree/master/1020-number-of-enclaves) |
