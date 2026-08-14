@@ -15,14 +15,17 @@ public:
     //     int pth3 = f(r1,c1-1,c2,grid,dp);
     //     int pth4 = f(r1,c1-1,c2-1,grid,dp);
 
+            // FIND THE BEST PATH FIRST
+//          int max_path = max({pth1, pth2, pth3, pth4});
+        
+            // BUG FIX: If all paths ahead are dead-ends, this state is a dead-end!
+//          if (max_path == -1e9) return dp[r1][c1][c2] = -1e9;
+
     //     int cherries = 0;
     //     if(c1!=c2) cherries = grid[r1][c1] + grid[r2][c2];
     //     else cherries = grid[r1][c1];
 
-
-    //     int maxi = -1e9;
-    //     maxi = cherries + max({maxi,pth1,pth2,pth3,pth4});
-    //     return dp[r1][c1][c2] = maxi;
+    //     return dp[r1][c1][c2] = cherries + maxi;
     // }
     int cherryPickup(vector<vector<int>>& grid) {
         int n = grid.size();
@@ -50,14 +53,16 @@ public:
                     if(c1>0) pth3 = dp[r1][c1-1][c2];
                     if(c1>0 && c2>0) pth4 =dp[r1][c1-1][c2-1];
 
+                    int max_path = max({pth1, pth2, pth3, pth4});
+                    
+                    // If all previous paths were unreachable, this state is unreachable
+                    if (max_path == -1e9) continue;
+                    
                     int cherries = 0;
                     if(c1!=c2) cherries = grid[r1][c1] + grid[r2][c2];
                     else cherries = grid[r1][c1];
 
-
-                    int maxi = -1e9;
-                    maxi = cherries + max({maxi,pth1,pth2,pth3,pth4});
-                    dp[r1][c1][c2] = maxi;
+                    dp[r1][c1][c2] = cherries + max_path;
                 }
             }
         }
