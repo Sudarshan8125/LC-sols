@@ -32,7 +32,7 @@ public:
                 //letting one go first and then the other would be greedy
                 //3 state sol both would reach 0,0 together
         if(grid[0][0] == -1 || grid[n-1][n-1] == -1) return 0;
-        vector<vector<vector<int>>> dp(n,vector<vector<int>>(n,vector<int>(n,-1e9))); //this defines a list of 2d matrices
+        vector<vector<vector<int>>> dp(n,vector<vector<int>>(n,vector<int>(n,-1))); //this defines a list of 2d matrices
 
         dp[0][0][0] = grid[0][0]; 
 
@@ -42,11 +42,12 @@ public:
                         int r2 = r1 + c1 - c2;
                     if(r2<0 || r2>=n) continue;
                     if(r1==0 && c1==0 && c2==0) continue;
-                    if(grid[r1][c1]==-1 || grid[r2][c2]==-1)   continue;
-                      
+                    if(grid[r1][c1]==-1 || grid[r2][c2]==-1){
+                        dp[r1][c1][c2] = -1;
+                        continue;
+                    }
                     
-
-                    int pth1 = -1e9,pth2 = -1e9,pth3 = -1e9,pth4 = -1e9;
+                     int pth1=-1, pth2=-1, pth3=-1, pth4=-1;  
 
                     if(r1>0) pth1 = dp[r1-1][c1][c2];
                     if(r1>0 && c2>0) pth2 = dp[r1-1][c1][c2-1];
@@ -54,9 +55,8 @@ public:
                     if(c1>0 && c2>0) pth4 =dp[r1][c1-1][c2-1];
 
                     int max_path = max({pth1, pth2, pth3, pth4});
-                    
-                    // If all previous paths were unreachable, this state is unreachable
-                    if (max_path == -1e9) continue;
+
+                    if (max_path == -1) continue;   
                     
                     int cherries = 0;
                     if(c1!=c2) cherries = grid[r1][c1] + grid[r2][c2];
