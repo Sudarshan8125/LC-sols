@@ -1,40 +1,32 @@
 class Solution {
 public:
+
+    int f(int r,int c1,int c2,vector<vector<int>>& grid,vector<vector<vector<int>>>& dp){
+        int n = grid.size();
+        int m = grid[0].size();
+        //write base cases
+        if(c1<0 || c1>=m || c2<0 || c2>=m) return 0; //1e9 for max case.. -1e9 here so it never pick
+        if(r==n-1) return c1!=c2 ? grid[r][c1] + grid[r][c2] : grid[r][c1];
+
+        if(dp[r][c1][c2] != -1) return dp[r][c1][c2]; //if state was prev encountered
+        //do all stuffs
+        int maxi = INT_MIN;
+        for(int i=-1; i<=1; i++){
+            for(int j=-1; j<=1; j++){
+                int value = 0;
+                if(c1==c2) value = grid[r][c1];
+                else value = grid[r][c1] + grid[r][c2];
+                value += f(r+1,c1+i,c2+j,grid,dp);
+                maxi = max(maxi,value);
+            }
+        }
+        
+       return dp[r][c1][c2] = maxi;
+    }
     int cherryPickup(vector<vector<int>>& grid) {
         int n = grid.size();
         int m = grid[0].size();
-        
-        vector<vector<int>> prev(m,vector<int>(m,0));
-        vector<vector<int>> curr(m,vector<int>(m,0));
-
-        for(int c1=0;c1<m;c1++){
-            for(int c2=0;c2<m;c2++){
-                if(c1!=c2) prev[c1][c2] = grid[n-1][c1] + grid[n-1][c2];
-                else prev[c1][c2] = grid[n-1][c1];
-            }
-        }
-
-        for(int r=n-2;r>=0;r--){
-            for(int c1=0;c1<m;c1++){
-                for(int c2=0;c2<m;c2++){
-
-                    int maxi = -1;
-
-                    for(int i=-1;i<=1;i++){
-                        for(int j=-1;j<=1;j++){
-                            int x = c1+i;
-                            int y = c2+j;
-                            if(x >= 0 && x < m && y >= 0 && y < m){ 
-                                maxi = max(maxi, prev[x][y]);
-                            }
-                        }  
-                    }            
-                    int cherries = (c1 == c2) ? grid[r][c1] : grid[r][c1] + grid[r][c2];     
-                    curr[c1][c2] = cherries + maxi;               
-                }
-            }
-            swap(prev, curr);
-        }
-        return prev[0][m-1]; //passed up the fixed start points
+        vector<vector<vector<int>>> dp(n,vector<vector<int>>(m,vector<int>(m,-1)));
+        return f(0,0,m-1,grid,dp);
     }
 };
