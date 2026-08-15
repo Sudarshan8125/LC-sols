@@ -1,8 +1,10 @@
 class Solution {
 public:
     int f(int idx,int amount,vector<int>& coins,vector<vector<int>>& dp){
-        if(amount == 0) return 0; //to make amount 0 =>min length we pick is 0.
-        if(idx<0) return 1e9;
+        if (idx == 0) {
+            if (amount % coins[0] == 0) return amount / coins[0]; // If divisible, return quotient
+            return 1e9; // Otherwise impossible
+        }
 
         if(dp[idx][amount]!=-1) return dp[idx][amount];
         //pick
