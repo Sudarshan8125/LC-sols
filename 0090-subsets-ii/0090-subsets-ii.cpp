@@ -2,20 +2,17 @@ class Solution {
 public:
     void f(int ind,vector<int>& ds,vector<int>& nums,vector<vector<int>>& ans){
         int n = nums.size();
-        //using pick and not pick approach
-        if(ind==n){
-            ans.push_back(ds);
-            return;
-        }
+        //using for loop to skip non pick wale dupes
+        ans.push_back(ds);
 
-        //pick
-        ds.push_back(nums[ind]);
-        f(ind + 1, ds, nums, ans);
-        ds.pop_back();
-        //not pick matlab vo element value mat uthao//cuase fo ex 1 not pick hai matlab 1 ni uthana ab age agr uth gya to repeted comb
-        
-        while(ind+1<n && nums[ind]==nums[ind+1]) ind++;
-        f(ind+1,ds,nums,ans);
+        for(int i=ind;i<n;i++){
+
+            if(i>ind && nums[i] == nums[i-1]) continue;
+
+            ds.push_back(nums[i]);
+            f(i+1,ds,nums,ans);
+            ds.pop_back();
+        }
 
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
