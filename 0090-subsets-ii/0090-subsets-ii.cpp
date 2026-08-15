@@ -1,23 +1,28 @@
 class Solution {
 public:
-
-    void powersets(int start_idx,vector<int>& ds,vector<int>& nums,vector<vector<int>>& ans){
-        ans.push_back(ds);
-
-        int prev = -1;
-        for(int i = start_idx;i<nums.size();i++){
-            if(i>start_idx && nums[i] == nums[i-1]) continue;  //i>start_idx so as to allow 1st choice in new rec call
-                                                                //i.e to allow depth search
-            ds.push_back(nums[i]);
-            powersets(i+1,ds,nums,ans);
-            ds.pop_back();
+    void f(int ind,vector<int>& ds,vector<int>& nums,vector<vector<int>>& ans){
+        int n = nums.size();
+        //using pick and not pick approach
+        if(ind==n){
+            ans.push_back(ds);
+            return;
         }
+
+        //pick
+        ds.push_back(nums[ind]);
+        f(ind + 1, ds, nums, ans);
+        ds.pop_back();
+        //not pick matlab vo element value mat uthao//cuase fo ex 1 not pick hai matlab 1 ni uthana ab age agr uth gya to repeted comb
+        
+        while(ind+1<n && nums[ind]==nums[ind+1]) ind++;
+        f(ind+1,ds,nums,ans);
+
     }
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
+        sort(nums.begin(),nums.end());
         vector<int> ds;
         vector<vector<int>> ans;
-        sort(nums.begin(),nums.end());
-        powersets(0,ds,nums,ans);
+        f(0,ds,nums,ans);
         return ans;
     }
 };
