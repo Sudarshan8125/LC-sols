@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0403-frog-jump](https://github.com/Sudarshan8125/LC-sols/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/Sudarshan8125/LC-sols/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Sudarshan8125/LC-sols/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Sudarshan8125/LC-sols/tree/master/0216-combination-sum-iii) |
+| [0494-target-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0494-target-sum) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -78,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/Sudarshan8125/LC-sols/tree/master/0322-coin-change) |
 | [0403-frog-jump](https://github.com/Sudarshan8125/LC-sols/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
 | [0741-cherry-pickup](https://github.com/Sudarshan8125/LC-sols/tree/master/0741-cherry-pickup) |
@@ -403,11 +406,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0322-coin-change](https://github.com/Sudarshan8125/LC-sols/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0518-coin-change-ii) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0494-target-sum) |
 ## Complete Knapsack
 |  |
 | ------- |
