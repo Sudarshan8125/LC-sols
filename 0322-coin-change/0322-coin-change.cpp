@@ -21,26 +21,26 @@ public:
     }
     int coinChange(vector<int>& coins, int amount) {
         int n = coins.size();
-        vector<vector<int>> dp(n, vector<int>(amount + 1, 1e9)); // size cant ever be -1.
+        vector<int> prev(amount+1,1e9); // size cant ever be -1.
 
         for (int T = 0; T <= amount; T++) {
-            if (T % coins[0] == 0) dp[0][T] = T / coins[0];            
+            if (T % coins[0] == 0) prev[T] = T / coins[0];            
         }
-
+    
         for (int idx = 1; idx < n; idx++) {
             for (int T = 0; T <= amount; T++) {
                 // pick
                 int pick = 1e9;
                 if (T >= coins[idx])
-                    pick = 1 + dp[idx][T - coins[idx]];
+                    pick = 1 + prev[T - coins[idx]];
 
                 // not pick
-                int notpick = dp[idx - 1][T];
+                int notpick = prev[T];
 
-                dp[idx][T] = min(pick, notpick);
+                prev[T] = min(pick, notpick);
             }
         }
-        int ans = dp[n - 1][amount];
+        int ans = prev[amount];
         return ans >= 1e9 ? -1 : ans;
     }
 };
