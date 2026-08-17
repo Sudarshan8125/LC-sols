@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sudarshan8125/LC-sols/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/Sudarshan8125/LC-sols/tree/master/0733-flood-fill) |
 | [0741-cherry-pickup](https://github.com/Sudarshan8125/LC-sols/tree/master/0741-cherry-pickup) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sudarshan8125/LC-sols/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0741-cherry-pickup](https://github.com/Sudarshan8125/LC-sols/tree/master/0741-cherry-pickup) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Sudarshan8125/LC-sols/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
@@ -395,6 +397,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/Sudarshan8125/LC-sols/tree/master/0455-assign-cookies) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sudarshan8125/LC-sols/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Counting
 |  |
