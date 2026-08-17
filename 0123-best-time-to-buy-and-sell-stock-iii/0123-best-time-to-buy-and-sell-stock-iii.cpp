@@ -24,20 +24,22 @@ public:
         int n = prices.size();
         // even b buy
         // odd b sell
-        vector<vector<int>> dp(n + 1, vector<int>(5, 0));
+        vector<int> curr(5, 0);
+        vector<int> next(5, 0);
         for (int idx = n - 1; idx >= 0; idx--) {
             for (int buy = 3; buy >= 0; buy--) {
                 if (buy % 2 == 0) {
-                    int b = -prices[idx] + dp[idx + 1][buy + 1];
-                    int nb = dp[idx + 1][buy];
-                    dp[idx][buy] = max(b, nb);
+                    int b = -prices[idx] + next[buy + 1];
+                    int nb = next[buy];
+                    curr[buy] = max(b, nb);
                 } else {
-                    int s = +prices[idx] + dp[idx + 1][buy + 1];
-                    int ns = dp[idx + 1][buy];
-                    dp[idx][buy] = max(s, ns);
+                    int s = +prices[idx] + next[buy + 1];
+                    int ns = next[buy];
+                    curr[buy] = max(s, ns);
                 }
             }
+            next = curr;
         }
-        return dp[0][0]; // with buy permission
+        return curr[0]; // with buy permission
     }
 };
