@@ -1,7 +1,7 @@
 class Solution {
 public:
     int f(int idx,int buy,vector<int>& prices,int n,vector<vector<int>>& dp){
-        if(idx==n || buy==-1){
+        if(idx==n || buy==0){
             return 0;
         }
 
