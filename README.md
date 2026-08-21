@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Sudarshan8125/LC-sols/tree/master/0127-word-ladder) |
 | [0583-delete-operation-for-two-strings](https://github.com/Sudarshan8125/LC-sols/tree/master/0583-delete-operation-for-two-strings) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
+| [1092-shortest-common-supersequence](https://github.com/Sudarshan8125/LC-sols/tree/master/1092-shortest-common-supersequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Sudarshan8125/LC-sols/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
 ## Dynamic Programming
@@ -105,6 +106,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/Sudarshan8125/LC-sols/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
 | [0931-minimum-falling-path-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0931-minimum-falling-path-sum) |
+| [1092-shortest-common-supersequence](https://github.com/Sudarshan8125/LC-sols/tree/master/1092-shortest-common-supersequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Sudarshan8125/LC-sols/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1463-cherry-pickup-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/1463-cherry-pickup-ii) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Sudarshan8125/LC-sols/tree/master/1976-number-of-ways-to-arrive-at-destination) |
@@ -449,4 +451,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/Sudarshan8125/LC-sols/tree/master/0583-delete-operation-for-two-strings) |
+| [1092-shortest-common-supersequence](https://github.com/Sudarshan8125/LC-sols/tree/master/1092-shortest-common-supersequence) |
 <!---LeetCode Topics End-->
