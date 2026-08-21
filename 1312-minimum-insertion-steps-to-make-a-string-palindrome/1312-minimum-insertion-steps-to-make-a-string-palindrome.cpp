@@ -6,19 +6,21 @@ public:
         string rev = s;
         reverse(rev.begin(),rev.end());
 
-        vector<vector<int>> dp(n+1,vector<int>(n+1,0));
+        vector<int> prev(n+1,0);
+        vector<int> curr(n+1,0);
 
         for(int i1 = 1; i1<=n; i1++){
             for(int i2 = 1; i2<=n; i2++){
                 
                 if(s[i1-1] == rev[i2-1]){
-                    dp[i1][i2] = dp[i1-1][i2-1] + 1;
+                    curr[i2] = prev[i2-1] + 1;
                 }
                 else{
-                    dp[i1][i2] = max(dp[i1-1][i2],dp[i1][i2-1]);
+                    curr[i2] = max(prev[i2],curr[i2-1]);
                 }
             }
+            prev = curr;
         }
-        return n - dp[n][n];
+        return n - prev[n];
     }
 };
