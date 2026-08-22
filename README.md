@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Sudarshan8125/LC-sols/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0022-generate-parentheses) |
+| [0072-edit-distance](https://github.com/Sudarshan8125/LC-sols/tree/master/0072-edit-distance) |
 | [0127-word-ladder](https://github.com/Sudarshan8125/LC-sols/tree/master/0127-word-ladder) |
 | [0583-delete-operation-for-two-strings](https://github.com/Sudarshan8125/LC-sols/tree/master/0583-delete-operation-for-two-strings) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
@@ -86,6 +87,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0063-unique-paths-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Sudarshan8125/LC-sols/tree/master/0070-climbing-stairs) |
+| [0072-edit-distance](https://github.com/Sudarshan8125/LC-sols/tree/master/0072-edit-distance) |
 | [0120-triangle](https://github.com/Sudarshan8125/LC-sols/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Sudarshan8125/LC-sols/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
