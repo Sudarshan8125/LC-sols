@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Sudarshan8125/LC-sols/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/Sudarshan8125/LC-sols/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/Sudarshan8125/LC-sols/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/Sudarshan8125/LC-sols/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Sudarshan8125/LC-sols/tree/master/0127-word-ladder) |
@@ -85,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0022-generate-parentheses) |
+| [0044-wildcard-matching](https://github.com/Sudarshan8125/LC-sols/tree/master/0044-wildcard-matching) |
 | [0062-unique-paths](https://github.com/Sudarshan8125/LC-sols/tree/master/0062-unique-paths) |
 | [0063-unique-paths-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0064-minimum-path-sum) |
@@ -414,6 +416,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/Sudarshan8125/LC-sols/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/Sudarshan8125/LC-sols/tree/master/0455-assign-cookies) |
 | [0680-valid-palindrome-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0680-valid-palindrome-ii) |
@@ -462,4 +465,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/Sudarshan8125/LC-sols/tree/master/0583-delete-operation-for-two-strings) |
 | [1092-shortest-common-supersequence](https://github.com/Sudarshan8125/LC-sols/tree/master/1092-shortest-common-supersequence) |
+## Recursion
+|  |
+| ------- |
+| [0044-wildcard-matching](https://github.com/Sudarshan8125/LC-sols/tree/master/0044-wildcard-matching) |
 <!---LeetCode Topics End-->
