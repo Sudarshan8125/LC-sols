@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1092-shortest-common-supersequence](https://github.com/Sudarshan8125/LC-sols/tree/master/1092-shortest-common-supersequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Sudarshan8125/LC-sols/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [3016-minimum-number-of-pushes-to-type-word-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/3016-minimum-number-of-pushes-to-type-word-ii) |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Sudarshan8125/LC-sols/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -343,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0455-assign-cookies](https://github.com/Sudarshan8125/LC-sols/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0680-valid-palindrome-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0680-valid-palindrome-ii) |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Sudarshan8125/LC-sols/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sudarshan8125/LC-sols/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Simulation
 |  |
@@ -473,4 +475,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/Sudarshan8125/LC-sols/tree/master/0044-wildcard-matching) |
+## Enumeration
+|  |
+| ------- |
+| [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Sudarshan8125/LC-sols/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
 <!---LeetCode Topics End-->
