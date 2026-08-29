@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/Sudarshan8125/LC-sols/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Sudarshan8125/LC-sols/tree/master/0127-word-ladder) |
 | [0583-delete-operation-for-two-strings](https://github.com/Sudarshan8125/LC-sols/tree/master/0583-delete-operation-for-two-strings) |
+| [0678-valid-parenthesis-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0680-valid-palindrome-ii) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
 | [1092-shortest-common-supersequence](https://github.com/Sudarshan8125/LC-sols/tree/master/1092-shortest-common-supersequence) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0518-coin-change-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0518-coin-change-ii) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/Sudarshan8125/LC-sols/tree/master/0583-delete-operation-for-two-strings) |
+| [0678-valid-parenthesis-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0678-valid-parenthesis-string) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sudarshan8125/LC-sols/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0741-cherry-pickup](https://github.com/Sudarshan8125/LC-sols/tree/master/0741-cherry-pickup) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/Sudarshan8125/LC-sols/tree/master/0787-cheapest-flights-within-k-stops) |
@@ -130,6 +132,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0144-binary-tree-preorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/0145-binary-tree-postorder-traversal) |
 | [0173-binary-search-tree-iterator](https://github.com/Sudarshan8125/LC-sols/tree/master/0173-binary-search-tree-iterator) |
+| [0678-valid-parenthesis-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0678-valid-parenthesis-string) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Tree
 |  |
@@ -425,6 +428,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0044-wildcard-matching](https://github.com/Sudarshan8125/LC-sols/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0455-assign-cookies](https://github.com/Sudarshan8125/LC-sols/tree/master/0455-assign-cookies) |
+| [0678-valid-parenthesis-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0680-valid-palindrome-ii) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/Sudarshan8125/LC-sols/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [1386-cinema-seat-allocation](https://github.com/Sudarshan8125/LC-sols/tree/master/1386-cinema-seat-allocation) |
@@ -479,4 +483,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/Sudarshan8125/LC-sols/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
