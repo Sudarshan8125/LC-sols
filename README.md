@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Sudarshan8125/LC-sols/tree/master/0051-n-queens) |
+| [0056-merge-intervals](https://github.com/Sudarshan8125/LC-sols/tree/master/0056-merge-intervals) |
 | [0063-unique-paths-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0064-minimum-path-sum) |
 | [0078-subsets](https://github.com/Sudarshan8125/LC-sols/tree/master/0078-subsets) |
@@ -289,6 +290,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sorting
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/Sudarshan8125/LC-sols/tree/master/0056-merge-intervals) |
 | [0368-largest-divisible-subset](https://github.com/Sudarshan8125/LC-sols/tree/master/0368-largest-divisible-subset) |
 | [0455-assign-cookies](https://github.com/Sudarshan8125/LC-sols/tree/master/0455-assign-cookies) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
@@ -469,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Quicksort
 |  |
 | ------- |
+| [0056-merge-intervals](https://github.com/Sudarshan8125/LC-sols/tree/master/0056-merge-intervals) |
 | [0455-assign-cookies](https://github.com/Sudarshan8125/LC-sols/tree/master/0455-assign-cookies) |
 ## Longest Common Subsequence
 |  |
