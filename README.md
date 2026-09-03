@@ -80,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/Sudarshan8125/LC-sols/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/Sudarshan8125/LC-sols/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Sudarshan8125/LC-sols/tree/master/0127-word-ladder) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/Sudarshan8125/LC-sols/tree/master/0583-delete-operation-for-two-strings) |
 | [0678-valid-parenthesis-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0680-valid-palindrome-ii) |
@@ -281,6 +282,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/Sudarshan8125/LC-sols/tree/master/0127-word-ladder) |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
@@ -495,4 +497,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0678-valid-parenthesis-string) |
+## Sliding Window
+|  |
+| ------- |
+| [0438-find-all-anagrams-in-a-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0438-find-all-anagrams-in-a-string) |
 <!---LeetCode Topics End-->
