@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1631-path-with-minimum-effort](https://github.com/Sudarshan8125/LC-sols/tree/master/1631-path-with-minimum-effort) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sudarshan8125/LC-sols/tree/master/3867-sum-of-gcd-of-formed-pairs) |
+| [3903-smallest-stable-index-i](https://github.com/Sudarshan8125/LC-sols/tree/master/3903-smallest-stable-index-i) |
 ## Backtracking
 |  |
 | ------- |
@@ -504,4 +505,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0424-longest-repeating-character-replacement](https://github.com/Sudarshan8125/LC-sols/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0438-find-all-anagrams-in-a-string) |
+## Prefix Sum
+|  |
+| ------- |
+| [3903-smallest-stable-index-i](https://github.com/Sudarshan8125/LC-sols/tree/master/3903-smallest-stable-index-i) |
 <!---LeetCode Topics End-->
