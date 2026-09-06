@@ -511,4 +511,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3903-smallest-stable-index-i](https://github.com/Sudarshan8125/LC-sols/tree/master/3903-smallest-stable-index-i) |
+## Database
+|  |
+| ------- |
+| [1280-students-and-examinations](https://github.com/Sudarshan8125/LC-sols/tree/master/1280-students-and-examinations) |
 <!---LeetCode Topics End-->
