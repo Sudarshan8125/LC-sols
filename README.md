@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Sudarshan8125/LC-sols/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0008-string-to-integer-atoi](https://github.com/Sudarshan8125/LC-sols/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/Sudarshan8125/LC-sols/tree/master/0044-wildcard-matching) |
@@ -286,6 +287,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Sudarshan8125/LC-sols/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/Sudarshan8125/LC-sols/tree/master/0127-word-ladder) |
@@ -511,6 +513,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/Sudarshan8125/LC-sols/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sudarshan8125/LC-sols/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0438-find-all-anagrams-in-a-string) |
 ## Prefix Sum
