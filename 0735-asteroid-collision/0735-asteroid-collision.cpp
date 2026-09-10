@@ -2,28 +2,37 @@ class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& asteroids) {
         int n = asteroids.size();
-        stack<int> st;
-
-        for(int i = 0; i<n; i++){
-            while(!st.empty() && st.top()>0 && asteroids[i]<0 && st.top() < abs(asteroids[i])) st.pop();
-            if(!st.empty() && st.top()>0 && asteroids[i]<0 && st.top() == abs(asteroids[i])){
-                st.pop();
-                continue;
+    
+        vector<int> st;  
+        
+        for(int i=0; i < n; i++) {
+            if(asteroids[i] > 0) {
+                st.push_back(asteroids[i]);
             }
-            if(st.empty()) st.push(asteroids[i]);
-            else if(st.top() * asteroids[i] >0) st.push(asteroids[i]);
-            else if(st.top()<0 && asteroids[i] >0) st.push(asteroids[i]);
-        }
+            else {
+                while(!st.empty() && st.back() > 0 && 
+                      st.back() < abs(asteroids[i])) {
+                    
+                    // Destroy the asteroid
+                    st.pop_back();
+                }
 
-        int size = st.size();
-        vector<int> ans(size);
-        int i = size - 1;
-
-        while(!st.empty()){
-            ans[i] = st.top();
-            st.pop();
-            i--;
+                if(!st.empty() && 
+                    st.back() == abs(asteroids[i])) {
+                    
+                    // Destroy both the asteroids
+                    st.pop_back();
+                }
+                
+                else if(st.empty() ||
+                        st.back() < 0){
+                    
+                    // Storing the array in final state
+                    st.push_back(asteroids[i]);
+                }
+            }
         }
-        return ans;
+        return st;
     }
 };
+
