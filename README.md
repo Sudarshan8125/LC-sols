@@ -301,6 +301,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/Sudarshan8125/LC-sols/tree/master/0127-word-ladder) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sudarshan8125/LC-sols/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0460-lfu-cache](https://github.com/Sudarshan8125/LC-sols/tree/master/0460-lfu-cache) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
 | [0846-hand-of-straights](https://github.com/Sudarshan8125/LC-sols/tree/master/0846-hand-of-straights) |
@@ -343,6 +344,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Sudarshan8125/LC-sols/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0460-lfu-cache](https://github.com/Sudarshan8125/LC-sols/tree/master/0460-lfu-cache) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -392,6 +394,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0173-binary-search-tree-iterator](https://github.com/Sudarshan8125/LC-sols/tree/master/0173-binary-search-tree-iterator) |
+| [0460-lfu-cache](https://github.com/Sudarshan8125/LC-sols/tree/master/0460-lfu-cache) |
 ## Iterator
 |  |
 | ------- |
@@ -551,4 +554,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1280-students-and-examinations](https://github.com/Sudarshan8125/LC-sols/tree/master/1280-students-and-examinations) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0460-lfu-cache](https://github.com/Sudarshan8125/LC-sols/tree/master/0460-lfu-cache) |
 <!---LeetCode Topics End-->
