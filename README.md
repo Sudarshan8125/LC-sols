@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Sudarshan8125/LC-sols/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0005-longest-palindromic-substring](https://github.com/Sudarshan8125/LC-sols/tree/master/0005-longest-palindromic-substring) |
 | [0008-string-to-integer-atoi](https://github.com/Sudarshan8125/LC-sols/tree/master/0008-string-to-integer-atoi) |
 | [0022-generate-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/Sudarshan8125/LC-sols/tree/master/0044-wildcard-matching) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Sudarshan8125/LC-sols/tree/master/0005-longest-palindromic-substring) |
 | [0022-generate-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0022-generate-parentheses) |
 | [0044-wildcard-matching](https://github.com/Sudarshan8125/LC-sols/tree/master/0044-wildcard-matching) |
 | [0062-unique-paths](https://github.com/Sudarshan8125/LC-sols/tree/master/0062-unique-paths) |
@@ -382,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0005-longest-palindromic-substring](https://github.com/Sudarshan8125/LC-sols/tree/master/0005-longest-palindromic-substring) |
 | [0455-assign-cookies](https://github.com/Sudarshan8125/LC-sols/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0680-valid-palindrome-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0680-valid-palindrome-ii) |
@@ -561,4 +564,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0460-lfu-cache](https://github.com/Sudarshan8125/LC-sols/tree/master/0460-lfu-cache) |
+## Manacher
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/Sudarshan8125/LC-sols/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
