@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1020-number-of-enclaves](https://github.com/Sudarshan8125/LC-sols/tree/master/1020-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/1091-shortest-path-in-binary-matrix) |
+| [1110-delete-nodes-and-return-forest](https://github.com/Sudarshan8125/LC-sols/tree/master/1110-delete-nodes-and-return-forest) |
 | [1277-count-square-submatrices-with-all-ones](https://github.com/Sudarshan8125/LC-sols/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1386-cinema-seat-allocation](https://github.com/Sudarshan8125/LC-sols/tree/master/1386-cinema-seat-allocation) |
 | [1463-cherry-pickup-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/1463-cherry-pickup-ii) |
@@ -192,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1110-delete-nodes-and-return-forest](https://github.com/Sudarshan8125/LC-sols/tree/master/1110-delete-nodes-and-return-forest) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -228,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Sudarshan8125/LC-sols/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1020-number-of-enclaves](https://github.com/Sudarshan8125/LC-sols/tree/master/1020-number-of-enclaves) |
+| [1110-delete-nodes-and-return-forest](https://github.com/Sudarshan8125/LC-sols/tree/master/1110-delete-nodes-and-return-forest) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Sudarshan8125/LC-sols/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1631-path-with-minimum-effort](https://github.com/Sudarshan8125/LC-sols/tree/master/1631-path-with-minimum-effort) |
 ## Binary Tree
@@ -263,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1110-delete-nodes-and-return-forest](https://github.com/Sudarshan8125/LC-sols/tree/master/1110-delete-nodes-and-return-forest) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -312,6 +316,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Sudarshan8125/LC-sols/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1110-delete-nodes-and-return-forest](https://github.com/Sudarshan8125/LC-sols/tree/master/1110-delete-nodes-and-return-forest) |
 | [1386-cinema-seat-allocation](https://github.com/Sudarshan8125/LC-sols/tree/master/1386-cinema-seat-allocation) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sudarshan8125/LC-sols/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
