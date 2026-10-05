@@ -98,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0678-valid-parenthesis-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0678-valid-parenthesis-string) |
 | [0680-valid-palindrome-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0680-valid-palindrome-ii) |
 | [0721-accounts-merge](https://github.com/Sudarshan8125/LC-sols/tree/master/0721-accounts-merge) |
+| [0856-score-of-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sudarshan8125/LC-sols/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0940-distinct-subsequences-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0940-distinct-subsequences-ii) |
 | [1092-shortest-common-supersequence](https://github.com/Sudarshan8125/LC-sols/tree/master/1092-shortest-common-supersequence) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0173-binary-search-tree-iterator](https://github.com/Sudarshan8125/LC-sols/tree/master/0173-binary-search-tree-iterator) |
 | [0678-valid-parenthesis-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Sudarshan8125/LC-sols/tree/master/0735-asteroid-collision) |
+| [0856-score-of-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sudarshan8125/LC-sols/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 ## Tree
@@ -548,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0022-generate-parentheses) |
 | [0678-valid-parenthesis-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0678-valid-parenthesis-string) |
+| [0856-score-of-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0856-score-of-parentheses) |
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/Sudarshan8125/LC-sols/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 ## Sliding Window
 |  |
