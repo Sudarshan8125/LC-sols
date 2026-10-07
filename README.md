@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Sudarshan8125/LC-sols/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Sudarshan8125/LC-sols/tree/master/0216-combination-sum-iii) |
+| [0301-remove-invalid-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0301-remove-invalid-parentheses) |
 | [0494-target-sum](https://github.com/Sudarshan8125/LC-sols/tree/master/0494-target-sum) |
 ## Bit Manipulation
 |  |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0115-distinct-subsequences](https://github.com/Sudarshan8125/LC-sols/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/Sudarshan8125/LC-sols/tree/master/0127-word-ladder) |
 | [0179-largest-number](https://github.com/Sudarshan8125/LC-sols/tree/master/0179-largest-number) |
+| [0301-remove-invalid-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0301-remove-invalid-parentheses) |
 | [0424-longest-repeating-character-replacement](https://github.com/Sudarshan8125/LC-sols/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/Sudarshan8125/LC-sols/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/Sudarshan8125/LC-sols/tree/master/0583-delete-operation-for-two-strings) |
@@ -286,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Sudarshan8125/LC-sols/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/Sudarshan8125/LC-sols/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/0210-course-schedule-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/Sudarshan8125/LC-sols/tree/master/0301-remove-invalid-parentheses) |
 | [0322-coin-change](https://github.com/Sudarshan8125/LC-sols/tree/master/0322-coin-change) |
 | [0429-n-ary-tree-level-order-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/0429-n-ary-tree-level-order-traversal) |
 | [0542-01-matrix](https://github.com/Sudarshan8125/LC-sols/tree/master/0542-01-matrix) |
