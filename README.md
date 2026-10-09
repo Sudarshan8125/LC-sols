@@ -577,6 +577,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Database
 |  |
 | ------- |
+| [0176-second-highest-salary](https://github.com/Sudarshan8125/LC-sols/tree/master/0176-second-highest-salary) |
 | [1280-students-and-examinations](https://github.com/Sudarshan8125/LC-sols/tree/master/1280-students-and-examinations) |
 | [1527-patients-with-a-condition](https://github.com/Sudarshan8125/LC-sols/tree/master/1527-patients-with-a-condition) |
 | [1667-fix-names-in-a-table](https://github.com/Sudarshan8125/LC-sols/tree/master/1667-fix-names-in-a-table) |
