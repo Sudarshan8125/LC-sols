@@ -586,6 +586,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1517-find-users-with-valid-e-mails](https://github.com/Sudarshan8125/LC-sols/tree/master/1517-find-users-with-valid-e-mails) |
 | [1527-patients-with-a-condition](https://github.com/Sudarshan8125/LC-sols/tree/master/1527-patients-with-a-condition) |
 | [1667-fix-names-in-a-table](https://github.com/Sudarshan8125/LC-sols/tree/master/1667-fix-names-in-a-table) |
+| [1789-primary-department-for-each-employee](https://github.com/Sudarshan8125/LC-sols/tree/master/1789-primary-department-for-each-employee) |
 ## Doubly-Linked List
 |  |
 | ------- |
