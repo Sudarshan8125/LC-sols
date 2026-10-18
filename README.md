@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1386-cinema-seat-allocation](https://github.com/Sudarshan8125/LC-sols/tree/master/1386-cinema-seat-allocation) |
 | [1463-cherry-pickup-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/1463-cherry-pickup-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/Sudarshan8125/LC-sols/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1631-path-with-minimum-effort](https://github.com/Sudarshan8125/LC-sols/tree/master/1631-path-with-minimum-effort) |
 | [1658-minimum-operations-to-reduce-x-to-zero](https://github.com/Sudarshan8125/LC-sols/tree/master/1658-minimum-operations-to-reduce-x-to-zero) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/Sudarshan8125/LC-sols/tree/master/1838-frequency-of-the-most-frequent-element) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1277-count-square-submatrices-with-all-ones](https://github.com/Sudarshan8125/LC-sols/tree/master/1277-count-square-submatrices-with-all-ones) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/Sudarshan8125/LC-sols/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1463-cherry-pickup-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/1463-cherry-pickup-ii) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/Sudarshan8125/LC-sols/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Stack
 |  |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Sudarshan8125/LC-sols/tree/master/1110-delete-nodes-and-return-forest) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -277,6 +280,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1110-delete-nodes-and-return-forest](https://github.com/Sudarshan8125/LC-sols/tree/master/1110-delete-nodes-and-return-forest) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -361,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Linked List
 |  |
 | ------- |
@@ -379,6 +384,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0700-search-in-a-binary-search-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0700-search-in-a-binary-search-tree) |
 | [0701-insert-into-a-binary-search-tree](https://github.com/Sudarshan8125/LC-sols/tree/master/0701-insert-into-a-binary-search-tree) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/Sudarshan8125/LC-sols/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -390,6 +396,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/Sudarshan8125/LC-sols/tree/master/0070-climbing-stairs) |
 | [0368-largest-divisible-subset](https://github.com/Sudarshan8125/LC-sols/tree/master/0368-largest-divisible-subset) |
 | [0877-stone-game](https://github.com/Sudarshan8125/LC-sols/tree/master/0877-stone-game) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/Sudarshan8125/LC-sols/tree/master/3658-gcd-of-odd-and-even-sums) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/Sudarshan8125/LC-sols/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 | [3871-count-commas-in-range-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/3871-count-commas-in-range-ii) |
@@ -432,6 +439,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/Sudarshan8125/LC-sols/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [1020-number-of-enclaves](https://github.com/Sudarshan8125/LC-sols/tree/master/1020-number-of-enclaves) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/Sudarshan8125/LC-sols/tree/master/1319-number-of-operations-to-make-network-connected) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 | [1631-path-with-minimum-effort](https://github.com/Sudarshan8125/LC-sols/tree/master/1631-path-with-minimum-effort) |
 ## Graph Theory
 |  |
@@ -512,10 +520,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/Sudarshan8125/LC-sols/tree/master/0070-climbing-stairs) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Combinatorics
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/Sudarshan8125/LC-sols/tree/master/0062-unique-paths) |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 ## Knapsack Problem
 |  |
 | ------- |
@@ -605,4 +615,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2916-subarrays-distinct-element-sum-of-squares-ii](https://github.com/Sudarshan8125/LC-sols/tree/master/2916-subarrays-distinct-element-sum-of-squares-ii) |
+## Fermat's Little Theorem
+|  |
+| ------- |
+| [1569-number-of-ways-to-reorder-array-to-get-same-bst](https://github.com/Sudarshan8125/LC-sols/tree/master/1569-number-of-ways-to-reorder-array-to-get-same-bst) |
 <!---LeetCode Topics End-->
